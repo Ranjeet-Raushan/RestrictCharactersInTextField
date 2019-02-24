@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C9DA4284BF2F02745DF6603 /* Pods_RestrictCharactersInTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9F279186413F6D1DB1D72D /* Pods_RestrictCharactersInTextField.framework */; };
 		E56FD8E721ECF5BA00DCAC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FD8E621ECF5BA00DCAC7F /* AppDelegate.swift */; };
 		E56FD8E921ECF5BA00DCAC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FD8E821ECF5BA00DCAC7F /* ViewController.swift */; };
 		E56FD8EC21ECF5BA00DCAC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56FD8EA21ECF5BA00DCAC7F /* Main.storyboard */; };
 		E56FD8EE21ECF5BB00DCAC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56FD8ED21ECF5BB00DCAC7F /* Assets.xcassets */; };
 		E56FD8F121ECF5BB00DCAC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56FD8EF21ECF5BB00DCAC7F /* LaunchScreen.storyboard */; };
+		E56FD8F921ECF79400DCAC7F /* RestrictNumberOfCharactersInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FD8F821ECF79400DCAC7F /* RestrictNumberOfCharactersInTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E997877F1164C294A04EC55 /* Pods-RestrictCharactersInTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestrictCharactersInTextField.release.xcconfig"; path = "Target Support Files/Pods-RestrictCharactersInTextField/Pods-RestrictCharactersInTextField.release.xcconfig"; sourceTree = "<group>"; };
+		7E9F279186413F6D1DB1D72D /* Pods_RestrictCharactersInTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestrictCharactersInTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87808F7EBACDD27DF91D86E5 /* Pods-RestrictCharactersInTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestrictCharactersInTextField.debug.xcconfig"; path = "Target Support Files/Pods-RestrictCharactersInTextField/Pods-RestrictCharactersInTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		E56FD8E321ECF5BA00DCAC7F /* RestrictCharactersInTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestrictCharactersInTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56FD8E621ECF5BA00DCAC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E56FD8E821ECF5BA00DCAC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		E56FD8ED21ECF5BB00DCAC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56FD8F021ECF5BB00DCAC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56FD8F221ECF5BB00DCAC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56FD8F821ECF79400DCAC7F /* RestrictNumberOfCharactersInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictNumberOfCharactersInTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9DA4284BF2F02745DF6603 /* Pods_RestrictCharactersInTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07055F68507F7249482E7543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87808F7EBACDD27DF91D86E5 /* Pods-RestrictCharactersInTextField.debug.xcconfig */,
+				3E997877F1164C294A04EC55 /* Pods-RestrictCharactersInTextField.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEDC522C8AAE5E95449D230E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E9F279186413F6D1DB1D72D /* Pods_RestrictCharactersInTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E56FD8DA21ECF5BA00DCAC7F = {
 			isa = PBXGroup;
 			children = (
 				E56FD8E521ECF5BA00DCAC7F /* RestrictCharactersInTextField */,
 				E56FD8E421ECF5BA00DCAC7F /* Products */,
+				07055F68507F7249482E7543 /* Pods */,
+				AEDC522C8AAE5E95449D230E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +83,7 @@
 			children = (
 				E56FD8E621ECF5BA00DCAC7F /* AppDelegate.swift */,
 				E56FD8E821ECF5BA00DCAC7F /* ViewController.swift */,
+				E56FD8F821ECF79400DCAC7F /* RestrictNumberOfCharactersInTextField.swift */,
 				E56FD8EA21ECF5BA00DCAC7F /* Main.storyboard */,
 				E56FD8ED21ECF5BB00DCAC7F /* Assets.xcassets */,
 				E56FD8EF21ECF5BB00DCAC7F /* LaunchScreen.storyboard */,
@@ -71,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E56FD8F521ECF5BB00DCAC7F /* Build configuration list for PBXNativeTarget "RestrictCharactersInTextField" */;
 			buildPhases = (
+				049E2CF837ECCD11349359AA /* [CP] Check Pods Manifest.lock */,
 				E56FD8DF21ECF5BA00DCAC7F /* Sources */,
 				E56FD8E021ECF5BA00DCAC7F /* Frameworks */,
 				E56FD8E121ECF5BA00DCAC7F /* Resources */,
+				39B06C4CAAA966ED1DF4AA43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +160,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		049E2CF837ECCD11349359AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestrictCharactersInTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B06C4CAAA966ED1DF4AA43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RestrictCharactersInTextField/Pods-RestrictCharactersInTextField-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RestrictCharactersInTextField/Pods-RestrictCharactersInTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E56FD8DF21ECF5BA00DCAC7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +214,7 @@
 			files = (
 				E56FD8E921ECF5BA00DCAC7F /* ViewController.swift in Sources */,
 				E56FD8E721ECF5BA00DCAC7F /* AppDelegate.swift in Sources */,
+				E56FD8F921ECF79400DCAC7F /* RestrictNumberOfCharactersInTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +358,7 @@
 		};
 		E56FD8F621ECF5BB00DCAC7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87808F7EBACDD27DF91D86E5 /* Pods-RestrictCharactersInTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +377,7 @@
 		};
 		E56FD8F721ECF5BB00DCAC7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E997877F1164C294A04EC55 /* Pods-RestrictCharactersInTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
